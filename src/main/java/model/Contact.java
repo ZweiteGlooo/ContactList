@@ -22,4 +22,12 @@ public class Contact {
     public String getPhone() {
         return phone;
     }
+
+    @Override
+    public String toString() {
+        return "Contacto: \n" +
+                "name: " + name + "\n" +
+                "email: " + email + "\n" +
+                "phone: " + phone;
+    }
 }
